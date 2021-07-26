@@ -1,1 +1,3 @@
-# Generador_Contrase-as_Python
+# Generador_Password_Python
+
+Este programa nos genera una contraseña con 15 caracteres de forma aleatoria, tomara los caracteres Ascci desde el numero 33 hasta el 125. Lo primero que hace el programa es llenar el arreglo con 15 números aleatorios mediante un for, antes de que el numero tome una posición dentro del arreglo este pasa por una validación, que se hizo usando una función llamada Sinrepetir a la cual como parámetro se le envía el número y el arreglo, de forma se determina si el numero ya existe o no dentro del arreglo. Luego que tenemos nuestro arreglo lleno, usamos un siclo for para recorrer este mismo y pasar cada número que se encuentra dentro de una posición a carácter y por último imprimimos nuestra contraseña.
